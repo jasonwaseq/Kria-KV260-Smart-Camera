@@ -56,8 +56,8 @@ Replace `0` with your camera’s `VIDEO_ID` if different.
 **Or use the script** (from host, same directory as the script):
 
 ```bash
-./smartcam-rtsp-no-glitch.sh
-# or with a different camera:  ./smartcam-rtsp-no-glitch.sh 1
+./run-smartcam.sh
+# or with a different camera:  ./run-smartcam.sh 1
 ```
 
 **Inside the container** (after `docker run ... bash`):
