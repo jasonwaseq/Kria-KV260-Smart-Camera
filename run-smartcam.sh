@@ -1,6 +1,6 @@
 #!/bin/bash
 # Run smartcam RTSP with encoder params that remove GDR/loop-filter/ScalingList warnings.
-# Usage: ./smartcam-rtsp-no-glitch.sh [USB_ID]
+# Usage: ./run-smartcam.sh [USB_ID]
 #   USB_ID defaults to 0 (e.g. /dev/video0). Run from host or inside the container.
 
 USB_ID="${1:-0}"
